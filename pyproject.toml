@@ -1,0 +1,11 @@
+[project]
+name = "lm-bridge"
+version = "1.0.0"
+description = "Anthropic API ↔ LM Studio bridge for Claude Code"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.111",
+    "uvicorn[standard]>=0.29",
+    "httpx>=0.27",
+    "pydantic-settings>=2.2",
+]
